@@ -1,0 +1,40 @@
+{
+  "name": "@releaseband/eslint-config",
+  "version": "0.1.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-tsdoc": "^0.2.14",
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-tsdoc": "^0.2.14",
+    "prettier": "^2.4.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+   ],
+  "author": "",
+  "license": "MIT"
+}
