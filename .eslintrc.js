@@ -12,9 +12,6 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:sonarjs/recommended'
   ],
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   plugins: [
     'simple-import-sort',
     'sonarjs',
@@ -25,18 +22,5 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'tsdoc/syntax': 'warn',
     'import/no-extraneous-dependencies': 'error',
-    'prettier/prettier': [
-      'error',
-      {
-        printWidth: 80,
-        tabWidth: 2,
-        semi: true,
-        singleQuote: true,
-        trailingComma: 'es5',
-        bracketSpacing: true,
-        bracketSameLine: false,
-        arrowParens: 'always',
-      }
-    ],
   },
 };
