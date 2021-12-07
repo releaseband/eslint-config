@@ -3,6 +3,14 @@
   "version": "0.1.2",
   "description": "eslint config",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/eslint-config/issues"
+  },
+  "homepage": "https://github.com/releaseband/eslint-config#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
