@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint config",
   "main": "index.js",
   "devDependencies": {
@@ -34,7 +34,7 @@
   "keywords": [
     "eslint",
     "eslint-config"
-   ],
+  ],
   "author": "",
   "license": "MIT"
 }
