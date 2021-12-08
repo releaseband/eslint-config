@@ -10,13 +10,12 @@ module.exports = {
     'airbnb/hooks',
     'airbnb-typescript',
     'plugin:prettier/recommended',
-    'plugin:sonarjs/recommended'
+    'plugin:sonarjs/recommended',
   ],
-  plugins: [
-    'simple-import-sort',
-    'sonarjs',
-    'tsdoc',
-  ],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
+  plugins: ['simple-import-sort', 'sonarjs', 'tsdoc'],
   rules: {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
