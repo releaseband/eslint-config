@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/eslint-config",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "eslint config",
   "main": "index.js",
   "repository": {
