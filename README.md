@@ -7,7 +7,7 @@ echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
 ```
 
 ```
-npm i @releaseband/eslint-config
+npm i @releaseband/eslint-config -D
 npx install-peerdeps --dev @releaseband/eslint-config
 ```
 
@@ -20,4 +20,15 @@ module.exports = {
     project: './tsconfig.json',
   },
 };
+```
+
+`package.json`:
+
+```js
+{
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts --ignore-path .eslintignore",
+    "lint:fix": "npm run lint --  --fix"
+  }
+}
 ```
