@@ -1,33 +1,28 @@
-# Installing
+# @releaseband/eslint-config
 
-create [.npmrc](https://docs.npmjs.com/cli/v7/configuring-npm/npmrc) file in the **root project folder**:
+eslint shareable config
 
-```
-echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
-```
+## Installing
 
-```
-npm i @releaseband/eslint-config -D
+```bash
+npm i -D @releaseband/eslint-config
 npx install-peerdeps --dev @releaseband/eslint-config
 ```
 
-`.eslintrc.js`:
+create `eslintrc.js` file in the **root project folder**:
 
 ```js
 module.exports = {
   extends: '@releaseband/eslint-config',
-  parserOptions: {
-    project: './tsconfig.json',
-  },
 };
 ```
 
 `package.json`:
 
-```js
+```json
 {
   "scripts": {
-    "lint": "eslint . --ext .js,.ts --ignore-path .eslintignore",
+    "lint": "eslint --ext .js --ignore-path ./.gitignore .",
     "lint:fix": "npm run lint --  --fix"
   }
 }

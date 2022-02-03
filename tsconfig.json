@@ -1,3 +1,0 @@
-{
-  "extends": "@releaseband/typescript-config/tsconfig.json"
-}
