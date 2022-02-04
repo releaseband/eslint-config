@@ -11,5 +11,6 @@ module.exports = {
       'error',
       { devDependencies: ['**/*.config.js', '**/*.test.js', '**/*.spec.js'] },
     ],
+    'import/order': ['error', { alphabetize: { order: 'asc', caseInsensitive: true } }],
   },
 };

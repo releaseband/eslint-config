@@ -5,17 +5,14 @@
   "author": "releaseband",
   "license": "MIT",
   "main": "index.js",
-  "exports": {
-    ".": "./index.js"
-  },
   "scripts": {
     "commit": "cz",
-    "format": "prettier --write --ignore-path ./.gitignore .",
-    "lint": "eslint --ext .js --ignore-path ./.gitignore .",
-    "lint:fix": "npm run lint --  --fix"
+    "prettier": "prettier --write --ignore-path ./.gitignore .",
+    "lint": "eslint --ext .js --fix ."
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
@@ -25,7 +22,6 @@
     "@releaseband/semantic-release-npm-github-config": "^1.0.0",
     "commitizen": "^4.2.4",
     "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
@@ -33,10 +29,10 @@
   },
   "peerDependencies": {
     "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.11.0"
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "prettier": "^2.5.1"
   },
   "engines": {
     "node": ">=16.0.0"

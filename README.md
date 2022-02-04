@@ -9,7 +9,7 @@ npm i -D @releaseband/eslint-config
 npx install-peerdeps --dev @releaseband/eslint-config
 ```
 
-create `eslintrc.js` file in the **root project folder**:
+create `.eslintrc.js` file in the **root project folder**:
 
 ```js
 module.exports = {
@@ -17,13 +17,21 @@ module.exports = {
 };
 ```
 
-`package.json`:
+create `.eslintignore` file in the **root project folder**:
+
+```text
+node_modules/
+.idea/
+.vscode/
+.history/
+```
+
+add script in `package.json`:
 
 ```json
 {
   "scripts": {
-    "lint": "eslint --ext .js --ignore-path ./.gitignore .",
-    "lint:fix": "npm run lint --  --fix"
+    "lint": "eslint . --ext .js --fix"
   }
 }
 ```
