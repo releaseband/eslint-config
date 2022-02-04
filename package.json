@@ -37,6 +37,9 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
