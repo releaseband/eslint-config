@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/releaseband/eslint-config/compare/v0.2.1...v0.2.2) (2022-02-04)
+
+
+### Bug Fixes
+
+* add files in package ([2ca28b3](https://github.com/releaseband/eslint-config/commit/2ca28b37a782f1a6e8b7f9de99d40bf812de6bbd))
+
 ## [0.2.1](https://github.com/releaseband/eslint-config/compare/v0.2.0...v0.2.1) (2022-02-04)
 
 
