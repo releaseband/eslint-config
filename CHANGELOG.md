@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/releaseband/eslint-config/compare/v0.2.2...v0.3.0) (2022-02-05)
+
+
+### Features
+
+* update tools configs ([75b9e2a](https://github.com/releaseband/eslint-config/commit/75b9e2a1711a16bf2e2f4a0dc5ac57ad5fc6cec8))
+
 ## [0.2.2](https://github.com/releaseband/eslint-config/compare/v0.2.1...v0.2.2) (2022-02-04)
 
 
