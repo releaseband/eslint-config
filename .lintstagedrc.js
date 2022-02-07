@@ -1,5 +1,5 @@
 module.exports = {
   '*': 'prettier --write --ignore-unknown',
-  '*.{js,jsx,ts,tsx}': 'eslint --fix',
+  '*.js': 'eslint --fix',
   '*.md': 'markdownlint --fix',
 };
