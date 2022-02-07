@@ -1,6 +1,6 @@
 # @releaseband/eslint-config
 
-eslint shareable config
+[eslint](https://github.com/eslint/eslint) shareable config
 
 ## Installing
 
