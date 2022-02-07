@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/releaseband/eslint-config/compare/v0.3.0...v1.0.0) (2022-02-07)
+
+
+### Features
+
+* remove unnecessary tools configs ([3d454a6](https://github.com/releaseband/eslint-config/commit/3d454a6dfa718068fd3ce04a49639354d335658d))
+
+
+### BREAKING CHANGES
+
+* publish release version
+
 # [0.3.0](https://github.com/releaseband/eslint-config/compare/v0.2.2...v0.3.0) (2022-02-05)
 
 
